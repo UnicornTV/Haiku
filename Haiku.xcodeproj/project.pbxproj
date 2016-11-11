@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F3E85291DD6629F00302ABB /* HaikuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E85281DD6629F00302ABB /* HaikuTests.swift */; };
+		6F3E85341DD6629F00302ABB /* HaikuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E85331DD6629F00302ABB /* HaikuUITests.swift */; };
+		6F3E854F1DD6637B00302ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F3E85421DD6637B00302ABB /* Assets.xcassets */; };
+		6F3E85501DD6637B00302ABB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F3E85441DD6637B00302ABB /* Info.plist */; };
+		6F3E85511DD6637B00302ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E85461DD6637B00302ABB /* AppDelegate.swift */; };
+		6F3E85521DD6637B00302ABB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E85471DD6637B00302ABB /* ViewController.swift */; };
+		6F3E85531DD6637B00302ABB /* Haiku.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E854A1DD6637B00302ABB /* Haiku.xcdatamodeld */; };
+		6F3E85541DD6637B00302ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3E854D1DD6637B00302ABB /* LaunchScreen.storyboard */; };
+		6F3E85551DD6637B00302ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3E854E1DD6637B00302ABB /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F3E85251DD6629F00302ABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F3E85051DD6629F00302ABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F3E850C1DD6629F00302ABB;
+			remoteInfo = Haiku;
+		};
+		6F3E85301DD6629F00302ABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F3E85051DD6629F00302ABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F3E850C1DD6629F00302ABB;
+			remoteInfo = Haiku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F3E850D1DD6629F00302ABB /* Haiku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haiku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F3E85241DD6629F00302ABB /* HaikuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaikuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F3E85281DD6629F00302ABB /* HaikuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaikuTests.swift; sourceTree = "<group>"; };
+		6F3E852A1DD6629F00302ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F3E852F1DD6629F00302ABB /* HaikuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaikuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F3E85331DD6629F00302ABB /* HaikuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaikuUITests.swift; sourceTree = "<group>"; };
+		6F3E85351DD6629F00302ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F3E85421DD6637B00302ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F3E85441DD6637B00302ABB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F3E85461DD6637B00302ABB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F3E85471DD6637B00302ABB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F3E854B1DD6637B00302ABB /* Haiku.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Haiku.xcdatamodel; sourceTree = "<group>"; };
+		6F3E854D1DD6637B00302ABB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F3E854E1DD6637B00302ABB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F3E850A1DD6629F00302ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F3E85211DD6629F00302ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F3E852C1DD6629F00302ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F3E85041DD6629F00302ABB = {
+			isa = PBXGroup;
+			children = (
+				6F3E850F1DD6629F00302ABB /* Haiku */,
+				6F3E85271DD6629F00302ABB /* HaikuTests */,
+				6F3E85321DD6629F00302ABB /* HaikuUITests */,
+				6F3E850E1DD6629F00302ABB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F3E850E1DD6629F00302ABB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F3E850D1DD6629F00302ABB /* Haiku.app */,
+				6F3E85241DD6629F00302ABB /* HaikuTests.xctest */,
+				6F3E852F1DD6629F00302ABB /* HaikuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F3E850F1DD6629F00302ABB /* Haiku */ = {
+			isa = PBXGroup;
+			children = (
+				6F3E85411DD6637B00302ABB /* Assets */,
+				6F3E85431DD6637B00302ABB /* Config */,
+				6F3E85451DD6637B00302ABB /* Controllers */,
+				6F3E85481DD6637B00302ABB /* Helpers */,
+				6F3E85491DD6637B00302ABB /* Models */,
+				6F3E854C1DD6637B00302ABB /* Views */,
+			);
+			path = Haiku;
+			sourceTree = "<group>";
+		};
+		6F3E85271DD6629F00302ABB /* HaikuTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F3E85281DD6629F00302ABB /* HaikuTests.swift */,
+				6F3E852A1DD6629F00302ABB /* Info.plist */,
+			);
+			path = HaikuTests;
+			sourceTree = "<group>";
+		};
+		6F3E85321DD6629F00302ABB /* HaikuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F3E85331DD6629F00302ABB /* HaikuUITests.swift */,
+				6F3E85351DD6629F00302ABB /* Info.plist */,
+			);
+			path = HaikuUITests;
+			sourceTree = "<group>";
+		};
+		6F3E85411DD6637B00302ABB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6F3E85421DD6637B00302ABB /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6F3E85431DD6637B00302ABB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6F3E85441DD6637B00302ABB /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		6F3E85451DD6637B00302ABB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F3E85461DD6637B00302ABB /* AppDelegate.swift */,
+				6F3E85471DD6637B00302ABB /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6F3E85481DD6637B00302ABB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6F3E85491DD6637B00302ABB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F3E854A1DD6637B00302ABB /* Haiku.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6F3E854C1DD6637B00302ABB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F3E854D1DD6637B00302ABB /* LaunchScreen.storyboard */,
+				6F3E854E1DD6637B00302ABB /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F3E850C1DD6629F00302ABB /* Haiku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F3E85381DD6629F00302ABB /* Build configuration list for PBXNativeTarget "Haiku" */;
+			buildPhases = (
+				6F3E85091DD6629F00302ABB /* Sources */,
+				6F3E850A1DD6629F00302ABB /* Frameworks */,
+				6F3E850B1DD6629F00302ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Haiku;
+			productName = Haiku;
+			productReference = 6F3E850D1DD6629F00302ABB /* Haiku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F3E85231DD6629F00302ABB /* HaikuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F3E853B1DD6629F00302ABB /* Build configuration list for PBXNativeTarget "HaikuTests" */;
+			buildPhases = (
+				6F3E85201DD6629F00302ABB /* Sources */,
+				6F3E85211DD6629F00302ABB /* Frameworks */,
+				6F3E85221DD6629F00302ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F3E85261DD6629F00302ABB /* PBXTargetDependency */,
+			);
+			name = HaikuTests;
+			productName = HaikuTests;
+			productReference = 6F3E85241DD6629F00302ABB /* HaikuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F3E852E1DD6629F00302ABB /* HaikuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F3E853E1DD6629F00302ABB /* Build configuration list for PBXNativeTarget "HaikuUITests" */;
+			buildPhases = (
+				6F3E852B1DD6629F00302ABB /* Sources */,
+				6F3E852C1DD6629F00302ABB /* Frameworks */,
+				6F3E852D1DD6629F00302ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F3E85311DD6629F00302ABB /* PBXTargetDependency */,
+			);
+			name = HaikuUITests;
+			productName = HaikuUITests;
+			productReference = 6F3E852F1DD6629F00302ABB /* HaikuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F3E85051DD6629F00302ABB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Unicorn;
+				TargetAttributes = {
+					6F3E850C1DD6629F00302ABB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DAC62CF44G;
+						ProvisioningStyle = Automatic;
+					};
+					6F3E85231DD6629F00302ABB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DAC62CF44G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F3E850C1DD6629F00302ABB;
+					};
+					6F3E852E1DD6629F00302ABB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DAC62CF44G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F3E850C1DD6629F00302ABB;
+					};
+				};
+			};
+			buildConfigurationList = 6F3E85081DD6629F00302ABB /* Build configuration list for PBXProject "Haiku" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F3E85041DD6629F00302ABB;
+			productRefGroup = 6F3E850E1DD6629F00302ABB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F3E850C1DD6629F00302ABB /* Haiku */,
+				6F3E85231DD6629F00302ABB /* HaikuTests */,
+				6F3E852E1DD6629F00302ABB /* HaikuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F3E850B1DD6629F00302ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3E85541DD6637B00302ABB /* LaunchScreen.storyboard in Resources */,
+				6F3E85501DD6637B00302ABB /* Info.plist in Resources */,
+				6F3E854F1DD6637B00302ABB /* Assets.xcassets in Resources */,
+				6F3E85551DD6637B00302ABB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F3E85221DD6629F00302ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F3E852D1DD6629F00302ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F3E85091DD6629F00302ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3E85521DD6637B00302ABB /* ViewController.swift in Sources */,
+				6F3E85531DD6637B00302ABB /* Haiku.xcdatamodeld in Sources */,
+				6F3E85511DD6637B00302ABB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F3E85201DD6629F00302ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3E85291DD6629F00302ABB /* HaikuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F3E852B1DD6629F00302ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3E85341DD6629F00302ABB /* HaikuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F3E85261DD6629F00302ABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F3E850C1DD6629F00302ABB /* Haiku */;
+			targetProxy = 6F3E85251DD6629F00302ABB /* PBXContainerItemProxy */;
+		};
+		6F3E85311DD6629F00302ABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F3E850C1DD6629F00302ABB /* Haiku */;
+			targetProxy = 6F3E85301DD6629F00302ABB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F3E85361DD6629F00302ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F3E85371DD6629F00302ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F3E85391DD6629F00302ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DAC62CF44G;
+				INFOPLIST_FILE = "$(SRCROOT)/Haiku/Config/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.unicorn.Haiku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6F3E853A1DD6629F00302ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DAC62CF44G;
+				INFOPLIST_FILE = "$(SRCROOT)/Haiku/Config/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.unicorn.Haiku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6F3E853C1DD6629F00302ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DAC62CF44G;
+				INFOPLIST_FILE = HaikuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.unicorn.HaikuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haiku.app/Haiku";
+			};
+			name = Debug;
+		};
+		6F3E853D1DD6629F00302ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DAC62CF44G;
+				INFOPLIST_FILE = HaikuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.unicorn.HaikuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haiku.app/Haiku";
+			};
+			name = Release;
+		};
+		6F3E853F1DD6629F00302ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DAC62CF44G;
+				INFOPLIST_FILE = HaikuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.unicorn.HaikuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Haiku;
+			};
+			name = Debug;
+		};
+		6F3E85401DD6629F00302ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DAC62CF44G;
+				INFOPLIST_FILE = HaikuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.unicorn.HaikuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Haiku;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F3E85081DD6629F00302ABB /* Build configuration list for PBXProject "Haiku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F3E85361DD6629F00302ABB /* Debug */,
+				6F3E85371DD6629F00302ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F3E85381DD6629F00302ABB /* Build configuration list for PBXNativeTarget "Haiku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F3E85391DD6629F00302ABB /* Debug */,
+				6F3E853A1DD6629F00302ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F3E853B1DD6629F00302ABB /* Build configuration list for PBXNativeTarget "HaikuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F3E853C1DD6629F00302ABB /* Debug */,
+				6F3E853D1DD6629F00302ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F3E853E1DD6629F00302ABB /* Build configuration list for PBXNativeTarget "HaikuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F3E853F1DD6629F00302ABB /* Debug */,
+				6F3E85401DD6629F00302ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6F3E854A1DD6637B00302ABB /* Haiku.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F3E854B1DD6637B00302ABB /* Haiku.xcdatamodel */,
+			);
+			currentVersion = 6F3E854B1DD6637B00302ABB /* Haiku.xcdatamodel */;
+			path = Haiku.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6F3E85051DD6629F00302ABB /* Project object */;
+}
