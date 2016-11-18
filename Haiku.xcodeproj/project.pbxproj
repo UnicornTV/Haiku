@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F1E8D4F1DDEAD0000C3B435 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1E8D4E1DDEAD0000C3B435 /* Constants.swift */; };
 		6F3E85291DD6629F00302ABB /* HaikuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E85281DD6629F00302ABB /* HaikuTests.swift */; };
 		6F3E85341DD6629F00302ABB /* HaikuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E85331DD6629F00302ABB /* HaikuUITests.swift */; };
 		6F3E854F1DD6637B00302ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F3E85421DD6637B00302ABB /* Assets.xcassets */; };
 		6F3E85501DD6637B00302ABB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F3E85441DD6637B00302ABB /* Info.plist */; };
 		6F3E85511DD6637B00302ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E85461DD6637B00302ABB /* AppDelegate.swift */; };
-		6F3E85521DD6637B00302ABB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E85471DD6637B00302ABB /* ViewController.swift */; };
+		6F3E85521DD6637B00302ABB /* WriteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E85471DD6637B00302ABB /* WriteController.swift */; };
 		6F3E85531DD6637B00302ABB /* Haiku.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E854A1DD6637B00302ABB /* Haiku.xcdatamodeld */; };
 		6F3E85541DD6637B00302ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3E854D1DD6637B00302ABB /* LaunchScreen.storyboard */; };
 		6F3E85551DD6637B00302ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3E854E1DD6637B00302ABB /* Main.storyboard */; };
+		6F4FE59F1DD7977900F8B6C0 /* EntriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FE59E1DD7977900F8B6C0 /* EntriesController.swift */; };
+		6F4FE5A11DD797B300F8B6C0 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FE5A01DD797B300F8B6C0 /* NavController.swift */; };
+		8C4FE53C3F6288C1CC64CEB6 /* Pods_Haiku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D08F910CA151C3E388A63B1 /* Pods_Haiku.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F1E8D4E1DDEAD0000C3B435 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		6F3E850D1DD6629F00302ABB /* Haiku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haiku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F3E85241DD6629F00302ABB /* HaikuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaikuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F3E85281DD6629F00302ABB /* HaikuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaikuTests.swift; sourceTree = "<group>"; };
@@ -46,10 +51,15 @@
 		6F3E85421DD6637B00302ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F3E85441DD6637B00302ABB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F3E85461DD6637B00302ABB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6F3E85471DD6637B00302ABB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F3E85471DD6637B00302ABB /* WriteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteController.swift; sourceTree = "<group>"; };
 		6F3E854B1DD6637B00302ABB /* Haiku.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Haiku.xcdatamodel; sourceTree = "<group>"; };
 		6F3E854D1DD6637B00302ABB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F3E854E1DD6637B00302ABB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6F4FE59E1DD7977900F8B6C0 /* EntriesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntriesController.swift; sourceTree = "<group>"; };
+		6F4FE5A01DD797B300F8B6C0 /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		87AF76FA0DED617E0F4E0577 /* Pods-Haiku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haiku.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Haiku/Pods-Haiku.debug.xcconfig"; sourceTree = "<group>"; };
+		8D08F910CA151C3E388A63B1 /* Pods_Haiku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Haiku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20A97BE04B08BE947324DB5 /* Pods-Haiku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haiku.release.xcconfig"; path = "Pods/Target Support Files/Pods-Haiku/Pods-Haiku.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4FE53C3F6288C1CC64CEB6 /* Pods_Haiku.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F8F1547057AD5C260A06252 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D08F910CA151C3E388A63B1 /* Pods_Haiku.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6F3E85041DD6629F00302ABB = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +103,8 @@
 				6F3E85271DD6629F00302ABB /* HaikuTests */,
 				6F3E85321DD6629F00302ABB /* HaikuUITests */,
 				6F3E850E1DD6629F00302ABB /* Products */,
+				913BF9826DF15F39DD10F592 /* Pods */,
+				0F8F1547057AD5C260A06252 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				6F3E85441DD6637B00302ABB /* Info.plist */,
+				6F1E8D4E1DDEAD0000C3B435 /* Constants.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -148,7 +170,9 @@
 			isa = PBXGroup;
 			children = (
 				6F3E85461DD6637B00302ABB /* AppDelegate.swift */,
-				6F3E85471DD6637B00302ABB /* ViewController.swift */,
+				6F3E85471DD6637B00302ABB /* WriteController.swift */,
+				6F4FE59E1DD7977900F8B6C0 /* EntriesController.swift */,
+				6F4FE5A01DD797B300F8B6C0 /* NavController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -177,6 +201,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		913BF9826DF15F39DD10F592 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87AF76FA0DED617E0F4E0577 /* Pods-Haiku.debug.xcconfig */,
+				E20A97BE04B08BE947324DB5 /* Pods-Haiku.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F3E85381DD6629F00302ABB /* Build configuration list for PBXNativeTarget "Haiku" */;
 			buildPhases = (
+				529BF166B424F1260D7F0D1F /* [CP] Check Pods Manifest.lock */,
 				6F3E85091DD6629F00302ABB /* Sources */,
 				6F3E850A1DD6629F00302ABB /* Frameworks */,
 				6F3E850B1DD6629F00302ABB /* Resources */,
+				AC65717BFB48FBE8F1C1CFBE /* [CP] Embed Pods Frameworks */,
+				A3575153736576533C47BE49 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,14 +346,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		529BF166B424F1260D7F0D1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3575153736576533C47BE49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Haiku/Pods-Haiku-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC65717BFB48FBE8F1C1CFBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Haiku/Pods-Haiku-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6F3E85091DD6629F00302ABB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F3E85521DD6637B00302ABB /* ViewController.swift in Sources */,
+				6F4FE5A11DD797B300F8B6C0 /* NavController.swift in Sources */,
+				6F4FE59F1DD7977900F8B6C0 /* EntriesController.swift in Sources */,
+				6F3E85521DD6637B00302ABB /* WriteController.swift in Sources */,
 				6F3E85531DD6637B00302ABB /* Haiku.xcdatamodeld in Sources */,
 				6F3E85511DD6637B00302ABB /* AppDelegate.swift in Sources */,
+				6F1E8D4F1DDEAD0000C3B435 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +535,7 @@
 		};
 		6F3E85391DD6629F00302ABB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87AF76FA0DED617E0F4E0577 /* Pods-Haiku.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DAC62CF44G;
@@ -461,6 +549,7 @@
 		};
 		6F3E853A1DD6629F00302ABB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20A97BE04B08BE947324DB5 /* Pods-Haiku.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DAC62CF44G;
@@ -549,6 +638,7 @@
 				6F3E853A1DD6629F00302ABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F3E853B1DD6629F00302ABB /* Build configuration list for PBXNativeTarget "HaikuTests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +647,7 @@
 				6F3E853D1DD6629F00302ABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F3E853E1DD6629F00302ABB /* Build configuration list for PBXNativeTarget "HaikuUITests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +656,7 @@
 				6F3E85401DD6629F00302ABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
